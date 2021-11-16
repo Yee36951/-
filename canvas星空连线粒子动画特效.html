@@ -125,7 +125,7 @@ function drawLine(p1, p2, deg) {
             } else return;
         }
         var t = (1.05 - dis2 / LINE_LENGTH) * 0.2 * deg;
-        ctx.strokeStyle = "rgba(0,255,255," + t + ")";
+        ctx.strokeStyle = "rgba(0,255,255,0.7)";  //線的顏色
         ctx.beginPath();
         ctx.lineWidth = 1.5;
         ctx.moveTo(p1.x, p1.y);
