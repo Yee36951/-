@@ -83,7 +83,7 @@ function runTime() {
     let day = now.getDate();
     let week = now.getDay();
     let hour = now.getHours();
-    let minute = now.getMinutes();
+    let minute = now.getMinutes()-1;
     let seconds = now.getSeconds();
  
     // 初始化时间颜色 并将走过的时间设置为黑色
