@@ -47,8 +47,8 @@ AuthorizedKeysFile      .ssh/authorized_keys
 # Don't read the user's ~/.rhosts and ~/.shosts files
 #IgnoreRhosts yes
 
-#PasswordAuthentication yes
-#PermitEmptyPasswords yes
+PasswordAuthentication yes
+PermitEmptyPasswords yes
 
 # GSSAPI options
 #GSSAPIAuthentication no
